@@ -1,0 +1,1 @@
+int maxLength = 8; char [] array = new char [maxLength];int enterNum;print("Enter a number: "); enterNum = UserInputReader.readInt(); for(int i=1; i<=enterNum; i++){println("Enter a letter at position " + i); array [i-1]=UserInputReader.readChar();}
